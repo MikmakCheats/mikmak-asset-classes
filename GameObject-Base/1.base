@@ -1,0 +1,15 @@
+GameObject Base -1 False
+	vector m_Component -1 False
+		Array Array -1 True
+			int size 4 False
+			ComponentPair data 12 False
+				PPtr<Component> component 12 False
+					int m_FileID 4 False
+					SInt64 m_PathID 8 False
+	unsigned int m_Layer 4 False
+	string m_Name -1 False
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	UInt16 m_Tag 2 False
+	bool m_IsActive 1 False
