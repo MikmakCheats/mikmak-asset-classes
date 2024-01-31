@@ -1,0 +1,92 @@
+RenderSettings Base 330 False
+	bool m_Fog 1 True
+	ColorRGBA m_FogColor 16 False
+		float r 4 False
+		float g 4 False
+		float b 4 False
+		float a 4 False
+	int m_FogMode 4 False
+	float m_FogDensity 4 False
+	float m_LinearFogStart 4 False
+	float m_LinearFogEnd 4 False
+	ColorRGBA m_AmbientSkyColor 16 False
+		float r 4 False
+		float g 4 False
+		float b 4 False
+		float a 4 False
+	ColorRGBA m_AmbientEquatorColor 16 False
+		float r 4 False
+		float g 4 False
+		float b 4 False
+		float a 4 False
+	ColorRGBA m_AmbientGroundColor 16 False
+		float r 4 False
+		float g 4 False
+		float b 4 False
+		float a 4 False
+	float m_AmbientIntensity 4 False
+	int m_AmbientMode 4 True
+	ColorRGBA m_SubtractiveShadowColor 16 False
+		float r 4 False
+		float g 4 False
+		float b 4 False
+		float a 4 False
+	PPtr<Material> m_SkyboxMaterial 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	float m_HaloStrength 4 False
+	float m_FlareStrength 4 False
+	float m_FlareFadeSpeed 4 False
+	PPtr<Texture2D> m_HaloTexture 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	PPtr<Texture2D> m_SpotCookie 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	int m_DefaultReflectionMode 4 False
+	int m_DefaultReflectionResolution 4 False
+	int m_ReflectionBounces 4 False
+	float m_ReflectionIntensity 4 False
+	PPtr<Cubemap> m_CustomReflection 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	SphericalHarmonicsL2 m_AmbientProbe 108 False
+		float sh[ 0] 4 False
+		float sh[ 1] 4 False
+		float sh[ 2] 4 False
+		float sh[ 3] 4 False
+		float sh[ 4] 4 False
+		float sh[ 5] 4 False
+		float sh[ 6] 4 False
+		float sh[ 7] 4 False
+		float sh[ 8] 4 False
+		float sh[ 9] 4 False
+		float sh[10] 4 False
+		float sh[11] 4 False
+		float sh[12] 4 False
+		float sh[13] 4 False
+		float sh[14] 4 False
+		float sh[15] 4 False
+		float sh[16] 4 False
+		float sh[17] 4 False
+		float sh[18] 4 False
+		float sh[19] 4 False
+		float sh[20] 4 False
+		float sh[21] 4 False
+		float sh[22] 4 False
+		float sh[23] 4 False
+		float sh[24] 4 False
+		float sh[25] 4 False
+		float sh[26] 4 False
+	PPtr<Cubemap> m_GeneratedSkyboxReflection 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	PPtr<Light> m_Sun 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	ColorRGBA m_IndirectSpecularColor 16 False
+		float r 4 False
+		float g 4 False
+		float b 4 False
+		float a 4 False
+	bool m_UseRadianceAmbientProbe 1 False
