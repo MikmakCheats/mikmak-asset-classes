@@ -1,0 +1,281 @@
+AnimatorController Base -1 False
+	string m_Name -1 True
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	unsigned int m_ControllerSize 4 False
+	ControllerConstant m_Controller -1 False
+		vector m_LayerArray -1 False
+			Array Array -1 False
+				int size 4 False
+				OffsetPtr data -1 False
+					LayerConstant data -1 False
+						unsigned int m_StateMachineIndex 4 False
+						unsigned int m_StateMachineSynchronizedLayerIndex 4 False
+						HumanPoseMask m_BodyMask 12 False
+							unsigned int word0 4 False
+							unsigned int word1 4 False
+							unsigned int word2 4 False
+						OffsetPtr m_SkeletonMask -1 False
+							SkeletonMask data -1 False
+								vector m_Data -1 False
+									Array Array -1 False
+										int size 4 False
+										SkeletonMaskElement data 8 False
+											unsigned int m_PathHash 4 False
+											float m_Weight 4 False
+						unsigned int m_Binding 4 False
+						int (int&)m_LayerBlendingMode 4 False
+						float m_DefaultWeight 4 False
+						bool m_IKPass 1 False
+						bool m_SyncedLayerAffectsTiming 1 True
+		vector m_StateMachineArray -1 False
+			Array Array -1 False
+				int size 4 False
+				OffsetPtr data -1 False
+					StateMachineConstant data -1 False
+						vector m_StateConstantArray -1 False
+							Array Array -1 False
+								int size 4 False
+								OffsetPtr data -1 False
+									StateConstant data -1 False
+										vector m_TransitionConstantArray -1 False
+											Array Array -1 False
+												int size 4 False
+												OffsetPtr data -1 False
+													TransitionConstant data -1 False
+														vector m_ConditionConstantArray -1 False
+															Array Array -1 False
+																int size 4 False
+																OffsetPtr data 16 False
+																	ConditionConstant data 16 False
+																		unsigned int m_ConditionMode 4 False
+																		unsigned int m_EventID 4 False
+																		float m_EventThreshold 4 False
+																		float m_ExitTime 4 False
+														unsigned int m_DestinationState 4 False
+														unsigned int m_FullPathID 4 False
+														unsigned int m_ID 4 False
+														unsigned int m_UserID 4 False
+														float m_TransitionDuration 4 False
+														float m_TransitionOffset 4 False
+														float m_ExitTime 4 False
+														bool m_HasExitTime 1 False
+														bool m_HasFixedDuration 1 True
+														int m_InterruptionSource 4 False
+														bool m_OrderedInterruption 1 False
+														bool m_CanTransitionToSelf 1 True
+										vector m_BlendTreeConstantIndexArray -1 False
+											Array Array -1 False
+												int size 4 False
+												int data 4 False
+										vector m_BlendTreeConstantArray -1 False
+											Array Array -1 False
+												int size 4 False
+												OffsetPtr data -1 False
+													BlendTreeConstant data -1 False
+														vector m_NodeArray -1 False
+															Array Array -1 False
+																int size 4 False
+																OffsetPtr data -1 False
+																	BlendTreeNodeConstant data -1 False
+																		unsigned int m_BlendType 4 False
+																		unsigned int m_BlendEventID 4 False
+																		unsigned int m_BlendEventYID 4 False
+																		vector m_ChildIndices -1 False
+																			Array Array -1 False
+																				int size 4 False
+																				unsigned int data 4 False
+																		OffsetPtr m_Blend1dData -1 False
+																			Blend1dDataConstant data -1 False
+																				vector m_ChildThresholdArray -1 False
+																					Array Array -1 False
+																						int size 4 False
+																						float data 4 False
+																		OffsetPtr m_Blend2dData -1 False
+																			Blend2dDataConstant data -1 False
+																				vector m_ChildPositionArray -1 False
+																					Array Array -1 False
+																						int size 4 False
+																						Vector2f data 8 False
+																							float x 4 False
+																							float y 4 False
+																				vector m_ChildMagnitudeArray -1 False
+																					Array Array -1 False
+																						int size 4 False
+																						float data 4 False
+																				vector m_ChildPairVectorArray -1 False
+																					Array Array -1 False
+																						int size 4 False
+																						Vector2f data 8 False
+																							float x 4 False
+																							float y 4 False
+																				vector m_ChildPairAvgMagInvArray -1 False
+																					Array Array -1 False
+																						int size 4 False
+																						float data 4 False
+																				vector m_ChildNeighborListArray -1 False
+																					Array Array -1 False
+																						int size 4 False
+																						MotionNeighborList data -1 False
+																							vector m_NeighborArray -1 False
+																								Array Array -1 False
+																									int size 4 False
+																									unsigned int data 4 False
+																		OffsetPtr m_BlendDirectData -1 False
+																			BlendDirectDataConstant data -1 False
+																				vector m_ChildBlendEventIDArray -1 False
+																					Array Array -1 False
+																						int size 4 False
+																						unsigned int data 4 False
+																				bool m_NormalizedBlendValues 1 True
+																		unsigned int m_ClipID 4 False
+																		float m_Duration 4 False
+																		float m_CycleOffset 4 False
+																		bool m_Mirror 1 True
+										unsigned int m_NameID 4 False
+										unsigned int m_PathID 4 False
+										unsigned int m_FullPathID 4 False
+										unsigned int m_TagID 4 False
+										unsigned int m_SpeedParamID 4 False
+										unsigned int m_MirrorParamID 4 False
+										unsigned int m_CycleOffsetParamID 4 False
+										unsigned int m_TimeParamID 4 False
+										float m_Speed 4 False
+										float m_CycleOffset 4 False
+										bool m_IKOnFeet 1 False
+										bool m_WriteDefaultValues 1 False
+										bool m_Loop 1 False
+										bool m_Mirror 1 True
+						vector m_AnyStateTransitionConstantArray -1 False
+							Array Array -1 False
+								int size 4 False
+								OffsetPtr data -1 False
+									TransitionConstant data -1 False
+										vector m_ConditionConstantArray -1 False
+											Array Array -1 False
+												int size 4 False
+												OffsetPtr data 16 False
+													ConditionConstant data 16 False
+														unsigned int m_ConditionMode 4 False
+														unsigned int m_EventID 4 False
+														float m_EventThreshold 4 False
+														float m_ExitTime 4 False
+										unsigned int m_DestinationState 4 False
+										unsigned int m_FullPathID 4 False
+										unsigned int m_ID 4 False
+										unsigned int m_UserID 4 False
+										float m_TransitionDuration 4 False
+										float m_TransitionOffset 4 False
+										float m_ExitTime 4 False
+										bool m_HasExitTime 1 False
+										bool m_HasFixedDuration 1 True
+										int m_InterruptionSource 4 False
+										bool m_OrderedInterruption 1 False
+										bool m_CanTransitionToSelf 1 True
+						vector m_SelectorStateConstantArray -1 False
+							Array Array -1 False
+								int size 4 False
+								OffsetPtr data -1 False
+									SelectorStateConstant data -1 False
+										vector m_TransitionConstantArray -1 False
+											Array Array -1 False
+												int size 4 False
+												OffsetPtr data -1 False
+													SelectorTransitionConstant data -1 False
+														unsigned int m_Destination 4 False
+														vector m_ConditionConstantArray -1 False
+															Array Array -1 False
+																int size 4 False
+																OffsetPtr data 16 False
+																	ConditionConstant data 16 False
+																		unsigned int m_ConditionMode 4 False
+																		unsigned int m_EventID 4 False
+																		float m_EventThreshold 4 False
+																		float m_ExitTime 4 False
+										unsigned int m_FullPathID 4 False
+										bool m_IsEntry 1 True
+						unsigned int m_DefaultState 4 False
+						unsigned int m_SynchronizedLayerCount 4 False
+		OffsetPtr m_Values -1 False
+			ValueArrayConstant data -1 False
+				vector m_ValueArray -1 False
+					Array Array -1 False
+						int size 4 False
+						ValueConstant data 12 False
+							unsigned int m_ID 4 False
+							unsigned int m_Type 4 False
+							unsigned int m_Index 4 False
+		OffsetPtr m_DefaultValues -1 False
+			ValueArray data -1 False
+				vector m_PositionValues -1 False
+					Array Array -1 False
+						int size 4 False
+						float3 data 12 False
+							float x 4 False
+							float y 4 False
+							float z 4 False
+				vector m_QuaternionValues -1 False
+					Array Array -1 False
+						int size 4 False
+						float4 data 16 False
+							float x 4 False
+							float y 4 False
+							float z 4 False
+							float w 4 False
+				vector m_ScaleValues -1 False
+					Array Array -1 False
+						int size 4 False
+						float3 data 12 False
+							float x 4 False
+							float y 4 False
+							float z 4 False
+				vector m_FloatValues -1 False
+					Array Array -1 False
+						int size 4 False
+						float data 4 False
+				vector m_IntValues -1 False
+					Array Array -1 False
+						int size 4 False
+						int data 4 False
+				vector m_BoolValues -1 True
+					Array Array -1 True
+						int size 4 False
+						bool data 1 False
+	map m_TOS -1 False
+		Array Array -1 False
+			int size 4 False
+			pair data -1 False
+				unsigned int first 4 False
+				string second -1 False
+					Array Array -1 True
+						int size 4 False
+						char data 1 False
+	vector m_AnimationClips -1 False
+		Array Array -1 True
+			int size 4 False
+			PPtr<AnimationClip> data 12 False
+				int m_FileID 4 False
+				SInt64 m_PathID 8 False
+	StateMachineBehaviourVectorDescription m_StateMachineBehaviourVectorDescription -1 False
+		map m_StateMachineBehaviourRanges -1 False
+			Array Array -1 False
+				int size 4 False
+				pair data 16 False
+					StateKey first 8 False
+						unsigned int m_StateID 4 False
+						int m_LayerIndex 4 False
+					StateRange second 8 False
+						unsigned int m_StartIndex 4 False
+						unsigned int m_Count 4 False
+		vector m_StateMachineBehaviourIndices -1 False
+			Array Array -1 True
+				int size 4 False
+				unsigned int data 4 False
+	vector m_StateMachineBehaviours -1 False
+		Array Array -1 True
+			int size 4 False
+			PPtr<MonoBehaviour> data 12 False
+				int m_FileID 4 False
+				SInt64 m_PathID 8 False
+	bool m_MultiThreadedStateMachine 1 True
