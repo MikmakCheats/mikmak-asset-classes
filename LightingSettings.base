@@ -1,0 +1,13 @@
+LightingSettings Base -1 False
+	string m_Name -1 False
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	int m_GIWorkflowMode 4 False
+	bool m_EnableBakedLightmaps 1 False
+	bool m_EnableRealtimeLightmaps 1 False
+	bool m_RealtimeEnvironmentLighting 1 True
+	float m_BounceScale 4 False
+	float m_AlbedoBoost 4 False
+	float m_IndirectOutputScale 4 False
+	bool m_UsingShadowmask 1 True
