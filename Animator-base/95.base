@@ -1,0 +1,18 @@
+Animator Base 50 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	UInt8 m_Enabled 1 True
+	PPtr<Avatar> m_Avatar 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	PPtr<RuntimeAnimatorController> m_Controller 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	int m_CullingMode 4 False
+	int m_UpdateMode 4 False
+	bool m_ApplyRootMotion 1 False
+	bool m_LinearVelocityBlending 1 True
+	bool m_HasTransformHierarchy 1 False
+	bool m_AllowConstantClipSamplingOptimization 1 False
+	bool m_KeepAnimatorControllerStateOnDisable 1 True
