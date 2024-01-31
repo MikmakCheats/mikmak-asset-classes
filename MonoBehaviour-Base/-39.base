@@ -1,0 +1,27 @@
+MonoBehaviour Base -1 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	UInt8 m_Enabled 1 True
+	PPtr<MonoScript> m_Script 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	string m_Name -1 False
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	vector _glows -1 False
+		Array Array -1 False
+			int size 4 False
+			PPtr<$SkeletonGraphic> data 12 False
+				int m_FileID 4 False
+				SInt64 m_PathID 8 False
+	ColorRGBA _tintColor 16 False
+		float r 4 False
+		float g 4 False
+		float b 4 False
+		float a 4 False
+	UInt8 _automaticFetchReferences 1 True
+	UInt8 _randomizeSeveralGlows 1 True
+	UInt8 _runOnStart 1 True
+	float _delayTime 4 False
