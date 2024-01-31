@@ -1,0 +1,70 @@
+SpriteAtlas Base -1 False
+	string m_Name -1 False
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	vector m_PackedSprites -1 False
+		Array Array -1 True
+			int size 4 False
+			PPtr<Sprite> data 12 False
+				int m_FileID 4 False
+				SInt64 m_PathID 8 False
+	vector m_PackedSpriteNamesToIndex -1 True
+		Array Array -1 True
+			int size 4 False
+			string data -1 False
+				Array Array -1 True
+					int size 4 False
+					char data 1 False
+	map m_RenderDataMap -1 False
+		Array Array -1 False
+			int size 4 False
+			pair data -1 False
+				pair first 24 False
+					GUID first 16 False
+						unsigned int data[0] 4 False
+						unsigned int data[1] 4 False
+						unsigned int data[2] 4 False
+						unsigned int data[3] 4 False
+					SInt64 second 8 False
+				SpriteAtlasData second -1 False
+					PPtr<Texture2D> texture 12 False
+						int m_FileID 4 False
+						SInt64 m_PathID 8 False
+					PPtr<Texture2D> alphaTexture 12 False
+						int m_FileID 4 False
+						SInt64 m_PathID 8 False
+					Rectf textureRect 16 False
+						float x 4 False
+						float y 4 False
+						float width 4 False
+						float height 4 False
+					Vector2f textureRectOffset 8 False
+						float x 4 False
+						float y 4 False
+					Vector2f atlasRectOffset 8 False
+						float x 4 False
+						float y 4 False
+					Vector4f uvTransform 16 False
+						float x 4 False
+						float y 4 False
+						float z 4 False
+						float w 4 False
+					float downscaleMultiplier 4 False
+					unsigned int settingsRaw 4 False
+					vector secondaryTextures -1 False
+						Array Array -1 True
+							int size 4 False
+							SecondarySpriteTexture data -1 False
+								PPtr<Texture2D> texture 12 False
+									int m_FileID 4 False
+									SInt64 m_PathID 8 False
+								string name -1 True
+									Array Array -1 True
+										int size 4 False
+										char data 1 False
+	string m_Tag -1 False
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	bool m_IsVariant 1 True
