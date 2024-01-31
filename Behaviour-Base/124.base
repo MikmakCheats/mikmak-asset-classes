@@ -1,0 +1,5 @@
+Behaviour Base 13 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	UInt8 m_Enabled 1 True
