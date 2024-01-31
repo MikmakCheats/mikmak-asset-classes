@@ -1,0 +1,26 @@
+MonoBehaviour Base -1 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	UInt8 m_Enabled 1 True
+	PPtr<MonoScript> m_Script 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	string m_Name -1 False
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	vector _preloads -1 False
+		Array Array -1 True
+			int size 4 False
+			string data -1 False
+				Array Array -1 True
+					int size 4 False
+					char data 1 False
+	vector _gameExtensions -1 False
+		Array Array -1 True
+			int size 4 False
+			string data -1 False
+				Array Array -1 True
+					int size 4 False
+					char data 1 False
