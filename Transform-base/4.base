@@ -1,0 +1,26 @@
+Transform Base -1 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	Quaternionf m_LocalRotation 16 False
+		float x 4 False
+		float y 4 False
+		float z 4 False
+		float w 4 False
+	Vector3f m_LocalPosition 12 False
+		float x 4 False
+		float y 4 False
+		float z 4 False
+	Vector3f m_LocalScale 12 False
+		float x 4 False
+		float y 4 False
+		float z 4 False
+	vector m_Children -1 False
+		Array Array -1 True
+			int size 4 False
+			PPtr<Transform> data 12 False
+				int m_FileID 4 False
+				SInt64 m_PathID 8 False
+	PPtr<Transform> m_Father 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
