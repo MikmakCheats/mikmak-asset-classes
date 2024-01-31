@@ -1,0 +1,5 @@
+CanvasRenderer Base 13 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	bool m_CullTransparentMesh 1 False
