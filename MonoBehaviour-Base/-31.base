@@ -1,0 +1,26 @@
+MonoBehaviour Base -1 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	UInt8 m_Enabled 1 True
+	PPtr<MonoScript> m_Script 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	string m_Name -1 False
+		Array Array -1 True
+			int size 4 False
+			char data 1 False
+	RectOffset m_Padding 16 False
+		int m_Left 4 False
+		int m_Right 4 False
+		int m_Top 4 False
+		int m_Bottom 4 False
+	int m_ChildAlignment 4 False
+	float m_Spacing 4 False
+	UInt8 m_ChildForceExpandWidth 1 True
+	UInt8 m_ChildForceExpandHeight 1 True
+	UInt8 m_ChildControlWidth 1 True
+	UInt8 m_ChildControlHeight 1 True
+	UInt8 m_ChildScaleWidth 1 True
+	UInt8 m_ChildScaleHeight 1 True
+	UInt8 m_ReverseArrangement 1 True
