@@ -1,0 +1,4 @@
+NavMeshSettings Base 12 False
+	PPtr<NavMeshData> m_NavMeshData 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
