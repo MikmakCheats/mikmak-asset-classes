@@ -1,0 +1,19 @@
+Canvas Base 52 False
+	PPtr<GameObject> m_GameObject 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	UInt8 m_Enabled 1 True
+	int m_RenderMode 4 False
+	PPtr<Camera> m_Camera 12 False
+		int m_FileID 4 False
+		SInt64 m_PathID 8 False
+	float m_PlaneDistance 4 False
+	bool m_PixelPerfect 1 False
+	bool m_ReceivesEvents 1 False
+	bool m_OverrideSorting 1 False
+	bool m_OverridePixelPerfect 1 False
+	float m_SortingBucketNormalizedSize 4 False
+	int m_AdditionalShaderChannelsFlag 4 True
+	int m_SortingLayerID 4 False
+	SInt16 m_SortingOrder 2 False
+	SInt8 m_TargetDisplay 1 False
